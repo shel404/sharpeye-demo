@@ -1,15 +1,3 @@
-Create rewrites. Place a `vercel.json` at the project root.
-
-```
-{
-  "rewrites": [
-    { "source": "/:path", "destination": "/:path.html" }
-  ]
-}
-```
-
-Static file `about.html` resolves at `/about`.
-
 {
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
